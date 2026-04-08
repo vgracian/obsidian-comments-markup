@@ -24,7 +24,7 @@ Obsidian plugin for [CommentsMarkup](https://github.com/vgracian/comments-markup
 | **Toggle comment resolved** | Switches `[ ]` ↔ `[x]` on the root comment under the cursor |
 | **Show comments panel** | Opens the sidebar panel |
 
-All commands are accessible via the command palette. On first use, the plugin prompts for your `@author` name.
+All commands are accessible via the command palette. The plugin also adds a message icon to the ribbon that opens the comments panel. On first use, the plugin prompts for your `@author` name.
 
 ## Syntax at a glance
 
