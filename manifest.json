@@ -1,7 +1,7 @@
 {
   "id": "comments-markup",
   "name": "CommentsMarkup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minAppVersion": "1.0.0",
   "description": "Threaded commenting in Markdown: anchors, replies, authorship, and resolution. Complementary to CriticMarkup.",
   "author": "V. Gracia",
