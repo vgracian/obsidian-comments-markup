@@ -12,9 +12,19 @@ Obsidian plugin for [CommentsMarkup](https://github.com/vgracian/comments-markup
 
 - Renders `{^id}` anchors as subtle markers in the editor
 - Shows comment threads in a sidebar panel with authorship, dates, and resolution state
-- Commands to insert comments, reply, and toggle resolution
 - Filters: show only open comments, collapse resolved threads
 - Click any comment to navigate to its anchor in the document
+
+## Commands
+
+| Command | What it does |
+|---------|-------------|
+| **Insert comment** | Places `{^id}` anchor at cursor, creates comment definition in the Comments section, positions cursor to type |
+| **Reply to comment** | Adds a reply to the comment/anchor under the cursor |
+| **Toggle comment resolved** | Switches `[ ]` ↔ `[x]` on the root comment under the cursor |
+| **Show comments panel** | Opens the sidebar panel |
+
+All commands are accessible via the command palette. On first use, the plugin prompts for your `@author` name.
 
 ## Syntax at a glance
 
