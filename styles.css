@@ -1,0 +1,247 @@
+/* === Anchor markers === */
+
+.cm-anchor-marker {
+	cursor: pointer;
+	user-select: none;
+}
+
+.cm-anchor-superscript sup {
+	color: var(--text-accent);
+	font-size: 0.7em;
+	vertical-align: super;
+	font-weight: 600;
+	padding: 0 1px;
+}
+
+.cm-anchor-icon {
+	font-size: 0.8em;
+	vertical-align: super;
+}
+
+.cm-anchor-highlight {
+	background-color: var(--background-modifier-success);
+	color: var(--text-on-accent);
+	border-radius: 3px;
+	padding: 0 3px;
+	font-size: 0.8em;
+}
+
+.cm-anchor-inline {
+	display: inline;
+}
+
+/* === Reading mode: comment threads === */
+
+.cm-comments-section {
+	border-top: 1px solid var(--background-modifier-border);
+	margin-top: 1em;
+	padding-top: 0.5em;
+}
+
+.cm-comment-thread {
+	margin-bottom: 1em;
+	padding: 0.5em 0.75em;
+	border-left: 3px solid var(--interactive-accent);
+	border-radius: 2px;
+	background: var(--background-secondary);
+}
+
+.cm-comment-thread.cm-comment-resolved {
+	border-left-color: var(--text-muted);
+	opacity: 0.8;
+}
+
+.cm-comment-header {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	font-size: 0.85em;
+	margin-bottom: 0.25em;
+}
+
+.cm-comment-checkbox {
+	cursor: pointer;
+	margin: 0;
+}
+
+.cm-comment-author {
+	font-weight: 600;
+	color: var(--text-accent);
+}
+
+.cm-comment-date {
+	color: var(--text-muted);
+	font-size: 0.85em;
+}
+
+.cm-comment-id {
+	color: var(--text-faint);
+	font-size: 0.75em;
+	font-family: var(--font-monospace);
+}
+
+.cm-comment-text {
+	margin-top: 0.25em;
+	line-height: 1.5;
+}
+
+.cm-comment-reply {
+	margin-left: 1.5em;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+/* === Editor mode: comment definition lines === */
+
+.cm-comment-def-line {
+	background: var(--background-secondary);
+	opacity: 0.85;
+}
+
+/* === Sidebar === */
+
+.cm-sidebar-toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5em;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.cm-sidebar-filter-btn {
+	font-size: 0.8em;
+}
+
+.cm-sidebar-count {
+	font-size: 0.75em;
+	color: var(--text-muted);
+}
+
+.cm-sidebar-list {
+	padding: 0.5em;
+}
+
+.cm-sidebar-empty {
+	color: var(--text-muted);
+	padding: 1em;
+	text-align: center;
+	font-style: italic;
+}
+
+.cm-sidebar-thread {
+	margin-bottom: 0.75em;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.cm-sidebar-thread.cm-sidebar-resolved {
+	opacity: 0.7;
+}
+
+.cm-sidebar-summary {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	padding: 0.5em 0.75em;
+	cursor: pointer;
+	background: var(--background-secondary);
+	font-size: 0.85em;
+	user-select: none;
+}
+
+.cm-sidebar-summary:hover {
+	background: var(--background-modifier-hover);
+}
+
+.cm-sidebar-state {
+	font-size: 1em;
+	width: 1.2em;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.cm-sidebar-state:hover {
+	background: var(--background-modifier-hover);
+}
+
+.cm-sidebar-thread-id {
+	font-family: var(--font-monospace);
+	color: var(--text-faint);
+	font-size: 0.8em;
+}
+
+.cm-sidebar-root-body {
+	padding: 0.5em 0.75em;
+}
+
+.cm-sidebar-text {
+	line-height: 1.5;
+	margin-top: 0.25em;
+}
+
+.cm-sidebar-reply {
+	padding: 0.5em 0.75em;
+	margin-left: 1em;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.cm-sidebar-reply-header {
+	display: flex;
+	gap: 0.5em;
+	font-size: 0.85em;
+	margin-bottom: 0.25em;
+}
+
+/* === Sidebar: reply button === */
+
+.cm-sidebar-reply-btn {
+	width: 100%;
+	padding: 0.25em 0.5em;
+	font-size: 0.8em;
+	border: none;
+	border-top: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.cm-sidebar-reply-btn:hover {
+	background: var(--background-modifier-hover);
+	color: var(--text-normal);
+}
+
+/* === Sidebar: editable text === */
+
+.cm-sidebar-editable {
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 1px 3px;
+}
+
+.cm-sidebar-editable:hover {
+	background: var(--background-modifier-hover);
+}
+
+.cm-sidebar-edit-input {
+	width: 100%;
+	font-size: inherit;
+	line-height: inherit;
+	padding: 2px 4px;
+}
+
+/* === Sidebar: reply input box === */
+
+.cm-sidebar-reply-box {
+	padding: 0.5em 0.75em;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+/* === Author prompt modal === */
+
+.cm-author-input {
+	width: 100%;
+	margin: 0.5em 0;
+}
